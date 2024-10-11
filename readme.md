@@ -28,8 +28,8 @@ Para configurar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/usuario/projeto-cypress.git
-   cd projeto-cypress
+   git clone https://github.com/SandraPavan/cypress-notes.git
+   cd cypress-notes
    ```
 
 2. **Instale as dependências:**
