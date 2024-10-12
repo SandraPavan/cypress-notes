@@ -19,6 +19,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       config.env.login_email = process.env.CYPRESS_LOGIN_EMAIL;
       config.env.login_password = process.env.CYPRESS_LOGIN_PASSWORD;
+      config.env.login_segundo_email = process.env.CYPRESS_LOGIN_USUARIO_EMAIL;
+      config.env.login_segundo_password = process.env.CYPRESS_LOGIN_USUARIO_PASSWORD;
       return config;
     },
   },
