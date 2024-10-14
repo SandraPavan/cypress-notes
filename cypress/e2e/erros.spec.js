@@ -1,6 +1,6 @@
 describe('Testes de Erros', () => {
     it('Não deve fazer login com sucesso', () => {
-      cy.visit('');
+      cy.visit('/app');
       cy.get('.btn-primary').click();
       cy.get('[data-testid="login-email"]').type('teste@testes.com');
       cy.get('[data-testid="login-password"]').type('123456');
