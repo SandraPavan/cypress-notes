@@ -21,6 +21,8 @@ module.exports = defineConfig({
       config.env.login_password = process.env.CYPRESS_LOGIN_PASSWORD;
       config.env.login_segundo_email = process.env.CYPRESS_LOGIN_USUARIO_EMAIL;
       config.env.login_segundo_password = process.env.CYPRESS_LOGIN_USUARIO_PASSWORD;
+      config.env.auth_token = process.env.CYPRESS_AUTH_TOKEN;
+      config.env.id = process.env.CYPRESS_ID;
       return config;
     },
   },
