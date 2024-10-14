@@ -50,6 +50,10 @@ O projeto utiliza um arquivo **`.env`** para configurar variáveis de ambiente, 
 CYPRESS_BASE_URL=https://api.exemplo.com
 CYPRESS_LOGIN_EMAIL=seu-email@example.com
 CYPRESS_LOGIN_PASSWORD=sua-senha
+CYPRESS_LOGIN_USUARIO_EMAIL=seu-email@example.com
+CYPRESS_LOGIN_USUARIO_PASSWORD=sua-senha
+CYPRESS_AUTH_TOKEN = 
+CYPRESS_ID = 
 ```
 
 Essas variáveis serão automaticamente carregadas nos testes do Cypress.
